@@ -1,3 +1,5 @@
+This fork has only 1 change, it quits the application after import.
+
 Sequel Pro <img alt="Logo" src="https://sequelpro.com/images/logo.png" align="right" height="50">
 ==========
 

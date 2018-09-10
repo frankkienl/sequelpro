@@ -724,6 +724,10 @@
 	                                               description:[NSString stringWithFormat:NSLocalizedString(@"Finished importing %@", @"description for finished importing growl notification"), [filename lastPathComponent]]
 	                                                  document:tableDocumentInstance
 	                                          notificationName:@"Import Finished"];
+	
+	// Stupid workaround for annoying bug
+	// intentionally crash the application
+	[[NSApplication sharedApplication]terminate:nil];
 }
 
 #pragma mark -
